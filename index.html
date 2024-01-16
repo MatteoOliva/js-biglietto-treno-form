@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+      <div class="prezzo">
+      <div class="form">
+        <div class="input">
+          <h2>Nome e Cognome</h2>
+          <input type="text" id="user-name" autofocus>
+        </div>
+        <div class="input">
+          <h2>KM da Percorrere</h2>
+          <input type="text" id="user-km">
+        </div>
+        <div class="input">
+          <h2>Fascia d'eta</h2>
+          <select id="user-age">
+            <option value="minorenne">minorenne</option>
+            <option value="maggiorenne">maggiorenne</option>
+            <option value="over65">over65</option>
+          </select> 
+        </div>
+
+      </div>
+      <div class="buttons">
+        <button type="button" id ="generate-ticket" class="btn-primary">Genera</button>
+        <button type="reset" class="btn-secondary">Reset</button>
+      </div>
+
+      </div>
+      
+     <h1>IL TUO BIGLIETTO</h1>
+
+      <div class="ticket" 
+        <h2>DETTAGLIO PASSEGGERI</h2>
+        <div class="tableticket">
+        <div class="ticketnome">
+          <h2>NOME PASSEGGERO</h2>
+          <h3 id="ticket-pn"></h3>
+        </div>
+        <div><h3>offerta</h3><h4  id="offerta" ></h4></div>
+        <div><h3>carrozza</h3><h4 id="carrozza"></h4></div>
+        <div><h3>Codice CP</h3><h4 id="codice"></h4></div>
+        <div ><h3>Costo Biglietto</h3><h4 id="ticket-fare"></h4></div>
+      </div>
+      </div>
+      
+
+      
+      </div>
+
+
+
+
+
+
+
+    <script text="text/javascript" src="script.js"></script>
+
+    
+  </body>
+</html>

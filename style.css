@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #B91450;
+}
+h1 {
+color: white;
+text-align: center;
+font-size: 50px;
+padding-top: 30px;
+
+}
+.container {
+    width: 80%;
+    height: 500px;
+    
+    margin: 0 auto;
+}
+
+.prezzo {
+    background-color: white;
+    border-radius: 20px;
+    height: 300px;
+    margin-top: 20px;
+}
+.form {
+    display: flex;
+}
+.input > h2 {
+    color: #B91450;
+    margin-top: 75px;
+}
+
+.input {
+    
+    width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+    
+}
+.buttons {
+    position: relative;
+    top: 30%;
+    left: 42%;
+}
+.btn-primary {
+    border-radius: 5px;
+    background-color: grey;
+    color: #B91450;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    margin-right: 20px;
+    
+}
+
+select {
+    height: 20px;
+    width: 200px;
+}
+.btn-secondary {
+    border-radius: 5px;
+    background-color: grey;
+    color: #B91450;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.ticket {
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+
+
+
+h2 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.tableticket {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.ticketnome {
+    background-color: grey;
+    height: 200px;
+}
+
+.tableticket h4 {
+    margin-top: 50px;
+    
+}
